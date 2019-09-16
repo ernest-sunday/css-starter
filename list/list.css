@@ -1,0 +1,28 @@
+ul{
+    list-style:circle;
+    list-style-position: outside;
+}
+ol {
+    color:red;
+}
+#u-list-section{
+    background-color:green;
+    background-attachment:fixed;
+    padding:20px;
+    padding-top:10px;
+    margin:0;
+    margin-left:-8px;
+    margin-top:-8px;
+}
+#o-section{
+    margin:0;
+    padding:20px;
+    margin-left:-8px;
+    margin-bottom:-8px;
+    background-image:url(images/building.jpg);
+    background-position:50% top;
+    background-attachment:fixed;
+}
+h2,p,dl{
+    color:red;
+}
