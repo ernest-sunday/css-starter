@@ -1,0 +1,19 @@
+#house{
+    position:absolute;
+    left: 600px;
+    top: 400px;
+}
+#building{
+    position:absolute;
+    left: 1000px;
+    top:1px;
+}
+#house1{
+    position: absolute;
+    left: 1105px;
+    top: 60px;
+    z-index: 1;
+}
+body{
+    background-color: aquamarine;
+}

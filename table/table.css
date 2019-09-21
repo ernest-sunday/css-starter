@@ -1,0 +1,26 @@
+td, th{
+    border:1px solid #333;
+}
+caption{
+    font-weight:bold;
+    font-size:25px;
+}
+#header{
+    background-color:purple;
+    margin:-8px;
+    padding:18px;
+    position: fixed;
+    height: 240px;
+    width: 1500px;
+    margin-top: -16px;
+    opacity: 1.0;
+}
+nav{
+    word-spacing: 67px;
+}
+a:hover{
+    color:red;
+}
+a:link{
+    text-decoration:none;
+}

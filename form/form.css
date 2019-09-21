@@ -1,0 +1,26 @@
+.tbl{
+    border: 1px solid #333;
+}
+textarea{
+    width:535px;
+}
+#submit{
+    width: 300px;
+    font-weight: bold;
+}
+#name, #email, #subject{
+    width: 94%;
+}
+label{
+    font-weight: bold;
+}
+legend{
+    background-color: #aaa;
+    border-color: #fff #aaa #333 #fff;
+    border-width:1px;
+    font-weight: bold;
+    height: 30px;
+}
+table{
+    background-color: #aaa;
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+}
+#building{
+    position: fixed;
+    left: 600px;
+}
+#house{
+    position: fixed;
+    left: 300px;
+}
+#building1{
+    position: fixed;
+    left: 900px;
+    top: 260px;
+}
+#house1{
+    position:fixed;
+    left: 600px; 
+    top: 470px;
+}
