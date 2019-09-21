@@ -1,0 +1,45 @@
+h1{
+    color:purple;
+    font-size:35px;
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 140%;
+    letter-spacing: 2px;
+}
+.google{
+    background-color:aqua;
+    margin:0 auto 0 auto;
+    border:1px solid aqua;
+    padding:1px 10px 10px 10px;
+}
+#cafe-section{
+    background-color:peru;
+    margin:0;
+    border: 10px solid peru;
+    padding: 10px 10px 0 10px;
+    padding-top:7px;
+}
+p#get{
+    background-color:purple;
+    margin-right:450px;
+}
+p.mission{
+    color:purple;
+}
+#weekend{
+    line-height: 35px;
+}
+p em{
+    color:red;
+}
+body{
+    margin:0;
+    border:1px solid black;
+    font-size:16px;
+}
+#ocean:first-letter{
+    font-size: 70px;
+    float: left;
+    line-height: 40px;
+    color:teal;
+}
