@@ -11,8 +11,11 @@ ol {
     padding:20px;
     padding-top:10px;
     margin:0;
-    margin-left:-8px;
-    margin-top:-8px;
+    margin-right: -20px;
+    margin-left:-20px;
+    margin-top:-20px;
+    opacity: 0.8;
+    filter: alpha(opacity=10);
 }
 #o-section{
     margin:0;
@@ -20,6 +23,7 @@ ol {
     margin-left:-8px;
     margin-bottom:-8px;
     background-image:url(images/building.jpg);
+    border: 2px solid black;
     background-position:50% top;
     background-attachment:fixed;
 }
