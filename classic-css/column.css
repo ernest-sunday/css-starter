@@ -1,0 +1,50 @@
+body{
+    margin:10px;
+    font-size: 80%;
+    background-color: blueviolet;
+    padding: 10px;
+    overflow: auto;
+}
+.google{
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: blueviolet;
+    float: left;
+    width: 400px;
+    background-image: url(images/building.jpg);
+    height: 460px;
+}
+.cafe{
+    padding: 5px;
+    width: 17%;
+    float: left;
+    height: 650px;
+    margin-right: 40px;
+    margin-left: 40px;
+    clear: right;
+}
+.nav{
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: coral;
+    margin-right:35%;
+    margin-left:35%;
+    height: 460px;
+    width: 25%;
+}
+.list{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #000;
+    float: left;
+    width: 20%;
+}
+a{
+    outline: none;
+}
+#o-section{
+    float: left;
+}
+
+
+

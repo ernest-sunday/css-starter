@@ -1,0 +1,44 @@
+a:link{
+    color:blue;
+    text-decoration:none;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    text-decoration:underline;
+    background-color:wheat;
+}
+a:active{
+    color:red;
+    text-decoration:underline;
+}
+#lnk-section{
+    background-color:aqua;
+    margin:-8px;
+    padding:10px;
+    padding-top:20px;
+    margin-bottom:-10px;
+}
+#nav-section{
+    background-color:aqua;
+    margin-top:-10px;
+    margin-left:-8px;
+    padding:10px;
+    margin-right: -8px;
+}
+
+ul{
+    border:1px solid aqua;
+    margin:5px;
+    width:160px;
+}
+li{
+    border-top:1px solid #fff;
+    border-right:1px solid #fff;
+    border-bottom:1px solid #666;
+    border-left: 1px solid #aaa;
+    padding-top:5px;
+    margin-top:5px;
+    width:130px;
+}

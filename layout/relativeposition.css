@@ -1,0 +1,19 @@
+#house1{
+    position: relative;
+    left: 500px;
+}
+#building{
+    position: relative;
+    left: 1000px;
+}
+#building1{
+    position: relative;
+    left: 800px;
+}
+#house{
+    position: relative;
+    left: 300px;
+}
+body{
+    background-color: aquamarine;
+}
