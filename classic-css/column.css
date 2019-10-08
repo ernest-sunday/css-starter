@@ -1,36 +1,13 @@
 body{
-    margin:10px;
+    margin:0;
     font-size: 80%;
-    background-color: blueviolet;
-    padding: 10px;
+    padding: 0;
     overflow: auto;
+    box-sizing: border-box;
+    color: white;
 }
-.google{
-    padding: 5px;
-    border: 1px solid #000;
-    background-color: blueviolet;
-    float: left;
-    width: 400px;
-    background-image: url(images/building.jpg);
-    height: 460px;
-}
-.cafe{
-    padding: 5px;
-    width: 17%;
-    float: left;
-    height: 650px;
-    margin-right: 40px;
-    margin-left: 40px;
-    clear: right;
-}
-.nav{
-    padding: 5px;
-    border: 1px solid #000;
-    background-color: coral;
-    margin-right:35%;
-    margin-left:35%;
-    height: 460px;
-    width: 25%;
+* {
+    box-sizing: border-box;
 }
 .list{
     padding: 5px;
@@ -39,12 +16,39 @@ body{
     float: left;
     width: 20%;
 }
-a{
-    outline: none;
+.u-list{
+    text-transform: uppercase;
+    padding: 1px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: blueviolet;
+    padding-right: -15px;
+    padding-left: -15px;
+    margin: 20px;
 }
 #o-section{
-    float: left;
+    color: #000;
+    padding: 5px;
 }
-
-
-
+#nav-section{
+    flex: 2;
+    padding: 5px;
+}
+#google-section{
+    text-align: start;
+    padding: 5px;
+    flex: 4;
+}
+#o-sec{
+    text-transform: uppercase;
+}
+#cafe-section{
+    padding: 5px;
+    flex: 4;
+}
+#u-list-section{
+    flex: 2;
+}
