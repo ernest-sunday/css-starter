@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style type="text/css">
-        @import url(column.css);
-    </style>
-    <link rel="stylesheet" type="text/css" href="css/column/default.css" />
+    <link rel="stylesheet" type="text/css" href="./column.css" />
 </head>
 
 <body>
-    <div class="cafe">
+    <div class="row">
         <secton id="google-section">
             <header>
-                <h1>MORE ABOUT GOOGLE</h1>
+                <h2>MORE ABOUT GOOGLE</h2>
             </header>
             <P>Google is best known for its search engine, although
                 Google now offers a number of other services.</P>
@@ -27,15 +24,13 @@
                 Google at Stanford University.</p>
             <a href="http//:www.google.com">Click here to visit google website</a><br>
         </secton>
-    </div>
-    <div class="cafe">
         <section id="cafe-section">
             <header>
                 <h2>EXAMPLE CAFE</h2>
             </header>
             <p>Welcome to example cafe. We will be developing this site throughout
                 the book.</p>
-            <h2>A community cafe serving home cooked, locally sourced, organic food</h2>
+            <h3>A community cafe serving home cooked, locally sourced, organic food</h3>
             <p>With stunning views of the ocean, Example Cafe offers the perfect
                 environment to unwind and recharge the batteries.</p>
             <p>Our menu offers a wide range of breakfasts, brunches and lunches,
@@ -43,23 +38,18 @@
             <p>Whether you sip on a fresh, hot coffee or a cooling smoothie, you never
                 need to feel rushed - relax with friends or just watch the world go by.</p>
         </section>
-    </div>
-    <div class="cafe">
         <section id="nav-section">
             <h2>NAVIGATION</h2>
+            <p>The types of sports you can engage in are</p>
+            <nav>
+                <a href="http://www.google.com">Football</a>
+                <a href="http://www.google.com">Basketball</a>
+                <a href="http://www.google.com">Handball</a>
+                <a href="http://www.google.com">Volleyball</a>
+            </nav>
         </section>
-        <nav id="nav-section">
-            The types of sports you can engage in are<br>
-            <br>
-            <a href="http://www.google.com">Football</a>
-            <a href="http://www.google.com">Basketball</a>
-            <a href="http://www.google.com">Handball</a>
-            <a href="http://www.google.com">Volleyball</a>
-        </nav>
-    </div>
-    <div class="cafe">
         <section id="u-list-section">
-            <h2>Unordered list in navigation form</h2>
+            <h2 class="u-list">Unordered list in navigation form</h2>
             <nav>
                 <ul>
                     <li><a href="index.html">RECIPES</a></li><br>
@@ -69,63 +59,62 @@
                 </ul>
             </nav>
         </section>
-    </div>
-    <div class="ordered-list">
-        <section id="o-section">
-            <h2>Ordered list</h2>
-            <p>The list of some football players</p>
-            <ol>
-                <li>Rooney</li>
-                <li>Pepe</li>
-                <li>Ronaldo</li>
-                <li>Messi</li>
-            </ol>
-            <h2>Using the start Attribute to Change the Starting Number in Ordered Lists</h2>
-            <p>Example cafe menu</p>
-            <ol start="3">
-                <li>Rice</li>
-                <li>Vegetable</li>
-                <li>Pizza</li>
-            </ol>
-            <h2>Count Down in Your Ordered Lists with the reversed Attribute</h2>
-            <ol reversed>
-                <li>Rooney</li>
-                <li>Pepe</li>
-                <li>Ronaldo</li>
-            </ol>
-            <h2>Ordered list with type</h2>
-            <p>The types can be i,I,A,a,1.</p>
-            <ol type="A">
-                <li>Rooney</li>
-                <li>Pepe</li>
-                <li>Ronaldo</li>
-                <li>Messi</li>
-            </ol>
-            <h2>Definition lists</h2>
-            <dl>
-                <dt>Unordered list</dt>
-                <dd>A list of bullet point</dd>
-                <dt>Ordered list</dt>
-                <dd>An ordered list of point such as numbered steps</dd>
-                <dt>Definition list</dt>
-                <dd>A list of terms and definitions</dd>
-            </dl>
-            <h2>Nesting lists</h2>
-            <ol type="I">
-                <li>List one</li>
-                <li>List two</li>
-                <li>List three</li>
-                <li>List four
-                    <ol type="i">
-                        <li>list 4.1</li>
-                        <li>List 4.2</li>
-                        <li>List 4.3</li>
-                    </ol>
-                </li>
-                <li>List five</li>
-            </ol>
-    </div>
 
+    </div>
+    <section id="o-section">
+        <h2 id="o-sec">Ordered list</h2>
+        <p>The list of some football players</p>
+        <ol>
+            <li>Rooney</li>
+            <li>Pepe</li>
+            <li>Ronaldo</li>
+            <li>Messi</li>
+        </ol>
+        <h3>Using the start Attribute to Change the Starting Number in Ordered Lists</h3>
+        <p>Example cafe menu</p>
+        <ol start="3">
+            <li>Rice</li>
+            <li>Vegetable</li>
+            <li>Pizza</li>
+        </ol>
+        <h3>Count Down in Your Ordered Lists with the reversed Attribute</h3>
+        <ol reversed>
+            <li>Rooney</li>
+            <li>Pepe</li>
+            <li>Ronaldo</li>
+        </ol>
+        <h3>Ordered list with type</h3>
+        <p>The types can be i,I,A,a,1.</p>
+        <ol type="A">
+            <li>Rooney</li>
+            <li>Pepe</li>
+            <li>Ronaldo</li>
+            <li>Messi</li>
+        </ol>
+        <h3>Definition lists</h3>
+        <dl>
+            <dt>Unordered list</dt>
+            <dd>A list of bullet point</dd>
+            <dt>Ordered list</dt>
+            <dd>An ordered list of point such as numbered steps</dd>
+            <dt>Definition list</dt>
+            <dd>A list of terms and definitions</dd>
+        </dl>
+        <h3>Nesting lists</h3>
+        <ol type="I">
+            <li>List one</li>
+            <li>List two</li>
+            <li>List three</li>
+            <li>List four
+                <ol type="i">
+                    <li>list 4.1</li>
+                    <li>List 4.2</li>
+                    <li>List 4.3</li>
+                </ol>
+            </li>
+            <li>List five</li>
+        </ol>
+    </section>
 
 </body>
 

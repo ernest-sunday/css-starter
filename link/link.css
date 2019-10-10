@@ -1,3 +1,6 @@
+body{
+    background-color: aqua;
+}
 a:link{
     color:blue;
     text-decoration:none;
@@ -14,14 +17,12 @@ a:active{
     text-decoration:underline;
 }
 #lnk-section{
-    background-color:aqua;
     margin:-8px;
     padding:10px;
     padding-top:20px;
     margin-bottom:-10px;
 }
 #nav-section{
-    background-color:aqua;
     margin-top:-10px;
     margin-left:-8px;
     padding:10px;
@@ -29,7 +30,6 @@ a:active{
 }
 
 ul{
-    border:1px solid aqua;
     margin:5px;
     width:160px;
 }

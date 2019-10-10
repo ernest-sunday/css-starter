@@ -30,3 +30,12 @@ ol {
 h2,p,dl{
     color:red;
 }
+h1{
+    text-transform: uppercase;
+}
+nav{
+    word-spacing: 60px;
+}
+a:hover{
+    color: white;
+}
